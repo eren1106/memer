@@ -1,0 +1,38 @@
+.rightBar{
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    margin-right: 3px;
+}
+
+.rightBar::-webkit-scrollbar {
+    width: 8px;
+}
+.rightBar::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.rightBar::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+  border-radius: 50px;
+}
+
+.rightBar-wrapper{
+    padding: 20px;
+}
+
+.rightBar-title{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.rightBar-ads{
+    margin-bottom: 20px;
+}
+
+.rightBar-ads-image{
+    width: 100%;
+    object-fit: contain;
+}
+

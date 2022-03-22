@@ -1,0 +1,119 @@
+.editProfile{
+    z-index: 999;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 180px 65px rgba(0, 0, 0, 0.3);
+    width: calc(100vw - 40%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.editProfile-top{
+    display: flex;
+    width: 100%;
+}
+
+.editProfile-left, .editProfile-right{
+    flex: 1;
+}
+
+.editProfile-left{
+    padding: 5px;
+}
+.editProfile-left-top{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.editProfile-coverPicture{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.editProfile-profilePicture{
+    position: absolute;
+    top: calc(180px - 60px);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+}
+.editProfile-left-bottom{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 0.3s;
+    border: none;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.uploadProfileButton, .uploadCoverButton{
+    width: 110px;
+    text-align: center;
+}
+.uploadProfileButton{
+    background-color: rgb(255, 172, 47);
+}
+.uploadCoverButton{
+    background-color: rgb(92, 0, 212);
+}
+
+.editProfile-right{
+    padding: 10px 10px 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputContainer{
+    padding: 6px 0;
+}
+.inputContainer-text{
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+.inputContainer-input{
+    width: 90%;
+    padding: 5px;
+    font-size: 20px;
+    resize: none;
+}
+
+.updateButton{
+    background-color: #101010;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.closeButton{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: black;
+    border: none;
+    outline:none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.closeIcon{
+    color: #fff;
+}

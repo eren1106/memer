@@ -1,0 +1,119 @@
+.topbar{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbar-left, .topbar-middle, .topbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar-left{
+    flex: 3;
+    display: flex;
+    justify-content: start;
+    padding-left: 40px;
+}
+
+.topbar-middle{
+    flex: 7;
+}
+
+.topbar-right{
+    flex: 3;
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+}
+
+.topbar-logo{
+    color: #fff;
+    font-family: cursive;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.topbar-searchbar{
+    width: 80%;
+    height: 26px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    padding: 3px 3px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar-input{
+    width: 92%;
+    height: 100%;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    padding: 0 15px 0 5px;
+}
+
+.topbar-dropDown{
+    position: absolute;
+    top: calc(26px + 6px + 1px);
+    background-color: #fff;
+    z-index: 999;
+    width:95%;
+    box-shadow: 0px 7px 16px -4px rgba(0,0,0,0.57);
+    border-radius: 0 0 10px 10px;
+}
+.topbar-dropDown-user{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+.topbar-dropDown-user:hover{
+    background-color: #eee;
+}
+.topbar-dropDown-user-profilePicture{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+.topbar-dropDown-user-name{
+    font-size: 17px;
+}
+.topbar-loading, .topbar-noUserFound{
+    padding: 16px;
+}
+.topbar-input:focus{
+    outline: none;
+}
+.topbar-profilePicContainer{
+    display: flex;
+    align-items: center;
+}
+.topbar-profilePic{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topbar-logout{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+}

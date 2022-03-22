@@ -1,0 +1,84 @@
+.login{
+    background-color: rgb(230, 230, 230);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper{
+    width: 70%;
+    display: flex;
+}
+
+.login-left, .login-right{  
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-left-title{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.login-left-paragraph{
+    font-size: 25px;
+    color: rgb(119, 119, 119);
+}
+
+.login-right-panel{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+    border-radius: 20px;
+    padding: 25px 15px 10px 15px;
+    margin: 0 10px;
+}
+
+.login-input{
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 25px;
+}
+
+.login-input:focus{
+    outline: none;
+}
+
+.login-loginBtn, .login-signUpBtn{
+    cursor: pointer;
+    border: none;
+}
+
+.login-loginBtn{
+    background-color: #101010;
+    border: 3px solid #101010;
+    color: white;
+    border-radius: 10px;
+    padding: 17px 0;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
+.login-loginBtn:hover{
+    color: #101010;
+    background-color: rgb(230, 230, 230);
+}
+
+.login-signUpBtn{
+    background-color: white;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.login-invalidText{
+    color: red;
+}

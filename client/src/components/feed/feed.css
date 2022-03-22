@@ -1,0 +1,13 @@
+.feed-wrapper{
+    padding: 30px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feed-noMeme{
+    font-size: 30px;
+    color: #aaa;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
